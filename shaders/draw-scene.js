@@ -37,11 +37,7 @@ function drawScene(gl, programInfo, buffers) {
     [-0.0, 0.0, -6.0]
   ); // amount to translate
 
-  mat4.rotate(
-    modelViewMatrix, // destination matrix
-    modelViewMatrix, // matrix to rotate
-    3.14 // amount to rotate in radians
-  );
+  
 
   // Tell WebGL how to pull out the positions from the position
   // buffer into the vertexPosition attribute.
