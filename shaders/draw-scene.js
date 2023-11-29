@@ -41,6 +41,7 @@ function drawScene(gl, programInfo, buffers) {
     modelViewMatrix, // destination matrix
     modelViewMatrix, // matrix to rotate
     3.14, // amount to rotate in radians
+    [0, 0, 1]
 
   );
 
