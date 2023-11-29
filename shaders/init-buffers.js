@@ -31,9 +31,9 @@ function initPositionBuffer(gl) {
 function initColorBuffer(gl) {
   const colors = [
     1.0,
-    1.0,
-    1.0,
-    1.0, // white
+    0.0,
+    0.0,
+    1.0, // red
     1.0,
     0.0,
     0.0,
@@ -43,8 +43,8 @@ function initColorBuffer(gl) {
     0.0,
     1.0, // green
     0.0,
-    0.0,
     1.0,
+    0.0,
     1.0, // blue
   ];
 
