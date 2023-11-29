@@ -40,7 +40,7 @@ function drawScene(gl, programInfo, buffers) {
   mat4.rotate(
     modelViewMatrix, // destination matrix
     modelViewMatrix, // matrix to rotate
-    0.01, // amount to rotate in radians
+    3.14, // amount to rotate in radians
     [0, 0, 1],
   );
 
