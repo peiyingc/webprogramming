@@ -40,7 +40,8 @@ function drawScene(gl, programInfo, buffers) {
   mat4.rotate(
     modelViewMatrix, // destination matrix
     modelViewMatrix, // matrix to rotate
-    1.6, // amount to rotate in radians
+    3.14, // amount to rotate in radians
+
   );
 
   // Tell WebGL how to pull out the positions from the position
