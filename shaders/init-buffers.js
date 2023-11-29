@@ -45,7 +45,7 @@ function initColorBuffer(gl) {
     0.0,
     1.0,
     0.0,
-    1.0, // blue
+    1.0, // green
   ];
 
   const colorBuffer = gl.createBuffer();
