@@ -37,8 +37,6 @@ function drawScene(gl, programInfo, buffers) {
     [-0.0, 0.0, -6.0]
   ); // amount to translate
 
-  
-
   // Tell WebGL how to pull out the positions from the position
   // buffer into the vertexPosition attribute.
   setPositionAttribute(gl, buffers, programInfo);
